@@ -50,6 +50,11 @@ GEM
       addressable (~> 2.2)
       multipart-post (~> 1.1)
       rack (~> 1.1)
+    faraday_middleware (0.8.4)
+      faraday (>= 0.7.4, < 0.9)
+    gcal4ruby (0.5.5)
+      gdata4ruby (>= 0.1.5)
+    gdata4ruby (0.1.5)
     google-api-client (0.4.0)
       addressable (~> 2.2.3)
       autoparse (~> 0.2.0)
@@ -133,6 +138,8 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   faraday
+  faraday_middleware
+  gcal4ruby
   google-api-client
   jquery-rails
   pg
